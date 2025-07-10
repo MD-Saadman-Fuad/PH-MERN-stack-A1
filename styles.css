@@ -24,7 +24,12 @@ body{
     border: none;
     padding: 12px 36px;
     color: #FFFFFF;
+    transition: background-color 0.3s ease;
 
+}
+
+.btn-primary:hover{
+    background-color: rgb(212, 212, 72);
 }
 
 .raleway-bold-16{
@@ -55,6 +60,9 @@ body{
 
 .text-color-1{
     color: rgb(37, 36, 50, 50%);
+}
+.text-color-2{
+    color: rgb(137, 135, 161, 100%);
 }
 
 
@@ -147,6 +155,24 @@ nav {
 }
 
 
+/* rating section  */
+
+.ratings{
+    text-align: center;
+    margin: 100px 260px;
+}
+
+.card{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+
 /* Touch section  */
 
 /* footer styles  */
@@ -177,4 +203,41 @@ nav {
 
 .form-align label{
     justify-content: left;
+}
+
+
+
+
+/* footer section  */
+footer{
+    background-color: white;
+}
+.footer-container{
+    
+    margin: 100px 350px;
+    border: 0 200px;
+    border: #4E47FF solid;
+    display: block;
+    text-align: center;
+    margin: 0 300px;
+    padding: 0 auto;
+}
+
+.inter-black-100{
+    color: rgb(78, 71, 255);
+    font-size: 100px;
+    font-weight: 900;
+
+}
+
+
+footer a{
+    text-decoration: none;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 }
