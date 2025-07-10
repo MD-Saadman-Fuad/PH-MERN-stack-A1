@@ -39,6 +39,14 @@ body{
     font-weight: 700;
     font-size: 42px;
 }
+.raleway-bold-38{
+    font-weight: 700;
+    font-size: 42px;
+}
+.raleway-bold-97{
+    font-weight: 700;
+    font-size: 97px;
+}
 
 .raleway-regular-24{
     font-weight: 400;
@@ -81,16 +89,16 @@ nav {
     padding-top: 250px;
     margin: 0 230px;
     text-align: center;
-    display: block;             
-    justify-content: center;   
-    align-items: center; 
+    /* display: grid;              */
+    /* justify-content: center;   
+    align-items: center;  */
 }
 
 
 
 /* main section  */
 
-.main1{
+.action{
     padding: 180px 260px 180px 260px;
     display: flex;
     align-items: center;
@@ -99,4 +107,74 @@ nav {
 
 .part2{
     border-radius: 15px;
+}
+
+
+
+
+.productive{
+    margin: 0 300px;
+    /* padding: 180px 260px 180px 260px; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(78, 71, 255, 10%)
+}
+
+.productive-title{
+    margin-bottom: 10px;
+}
+
+.productive-states{
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+
+.productive-states h1{
+    margin-bottom: 6px;
+}
+
+.text-big-blue{
+    color: rgb(78, 71, 255);
+    font-size: 80px;
+    font-weight: 900;
+}
+
+
+/* Touch section  */
+
+/* footer styles  */
+
+.touch-section{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+
+}
+
+.touch-column{
+    width: 50%;
+}
+
+.touch-section input[type="text"], .touch-section input[type="email"], .touch-section textarea{
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.form-align label{
+    justify-content: left;
 }
