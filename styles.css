@@ -135,7 +135,7 @@ nav {
 .productive{
     margin: 0 300px;
     /* padding: 180px 260px 180px 260px; */
-    border-radius: 20px;
+    border-radius: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -240,7 +240,54 @@ nav {
     font-weight: 300;
 }
 
+/* Optional section  */
 
+/* Optional Section Styling */
+
+.optional {
+  background-color: #FFFFFF;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+.optional-parent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.op-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.op-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+}
+
+.optional-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.optional-img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
 
 
 /* Touch section  */
