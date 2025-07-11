@@ -7,13 +7,12 @@
 
 .inter-font {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 body{
     margin: 0;
     background-color: #F5F8FF;
+    font-family: "Raleway", sans-serif;
 }
 
 /* shared elements  */
@@ -114,6 +113,15 @@ nav {
     justify-content: space-between;
 }
 
+.part1{
+    width: 30%;
+}
+
+.part1 h2, p{
+    margin: 6px 0;
+    padding-bottom: 6px;
+}
+
 .part2{
     border-radius: 15px;
 }
@@ -185,7 +193,7 @@ nav {
 }
 
 .rating-card{
-    width: 10%;
+    width: 15%;
     background-color: #FFFFFF;
     padding: 15px;
     border: 1px solid #F2EDED;
@@ -197,7 +205,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
     border: 5px solid black;
     background-color: aliceblue;
 }
@@ -265,6 +273,13 @@ nav {
     border: none;
 }
 
+.touch-column label{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+
 .full-width-button{
     margin: 0 24px;
     display: flex;
@@ -286,17 +301,29 @@ nav {
 /* footer section  */
 footer{
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
 }
 .footer-container{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 100px 350px;
+    width: 30%;
     border: 0 200px;
-    border: #4E47FF solid;
+    /* border: #4E47FF solid; */
     display: block;
     text-align: center;
     margin: 0 300px;
-    padding: 0 auto;
+    padding: 100px auto;
 }
+
+.footer-container h1, h4{
+    margin: 6px 0;
+}
+
 
 .inter-black-100{
     color: rgb(78, 71, 255);
@@ -308,6 +335,7 @@ footer{
 
 footer a{
     text-decoration: none;
+    color: #8987A1;
 }
 
 .nav-items{
