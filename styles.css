@@ -107,7 +107,8 @@ nav {
 /* main section  */
 
 .action{
-    padding: 180px 260px 180px 260px;
+    margin: 0 100px;
+    padding: 180px 280px 180px 280px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -117,7 +118,7 @@ nav {
     border-radius: 15px;
 }
 
-
+/* productive section  */
 
 
 .productive{
@@ -137,52 +138,103 @@ nav {
 }
 
 .productive-states{
-    padding-top: 0;
+    padding-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 150px;
 }
 
-.productive-states h1{
-    margin-bottom: 6px;
+.productive-states h1, .productive-states h5 {
+  margin: 2px 0;
+  padding: 0;
 }
 
 .text-big-blue{
     color: rgb(78, 71, 255);
     font-size: 80px;
     font-weight: 900;
+    margin-top: 20px;
+    /* margin-bottom: 2px; */
 }
 
 
 /* rating section  */
 
-.ratings{
+.review-rating{
+    margin: 0 auto;
     text-align: center;
-    margin: 100px 260px;
+    align-items: center;
 }
 
+.review-title{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.rating-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 20px solid black; */
+    text-align: left;
+    margin: 20px 0px;
+    gap: 100px;  
+    
+}
+
+.rating-card{
+    width: 10%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #F2EDED;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
 .card{
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
+    border: 5px solid black;
+    background-color: aliceblue;
+}
+
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    
+}
+.reviewer-info img{
+    border-radius: 40px;
+    
+}
+
+.card-title, .card-description, .reviewer-name-date h5 {
+  margin: 10px 0; 
 }
 
 
-
-
 /* Touch section  */
-
-/* footer styles  */
 
 .touch-section{
     padding: 130px 230px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     gap: 100px;
+
+}
+.touch-section label{
+
+    display: block;
+    justify-content: left;
+
 
 }
 
@@ -190,7 +242,7 @@ nav {
     width: 50%;
 }
 
-.touch-section input[type="text"], .touch-section input[type="email"], .touch-section textarea{
+.touch-section input[type="text"], .touch-section input[type="email"]{
     height: 40px;
     border-radius: 5px;
     background-color: white;
@@ -201,10 +253,33 @@ nav {
     border: none;
 }
 
-.form-align label{
-    justify-content: left;
+.touch-section textarea{
+    height: auto;           /* Let height be controlled by rows or content */
+    max-height: 80px;      /* Or set a bigger static height if preferred */
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
 
+.full-width-button{
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    /* padding: 12px 36px; */
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 12px 36px;
+    box-sizing: border-box;
+}
 
 
 
